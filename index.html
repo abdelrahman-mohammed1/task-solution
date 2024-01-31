@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="account">
+        <div class="information">
+          <div class="name">
+            <i class="fa-solid fa-caret-down"></i>
+            <div>
+              <p>Ramadan salem</p>
+              <p class="time">16:35 27/01/2024</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="notification">
+          <i class="fa-solid fa-user user"></i>
+          <div>
+            <p class="circle">7</p>
+            <i class="fa-solid fa-bell bell"></i>
+          </div>
+        </div>
+
+        <div class="assicent">
+          <p>المساعده</p>
+          <i class="fa-regular fa-life-ring"></i>
+        </div>
+      </div>
+      <div class="page">
+        <p>إضافة</p>
+        <i class="fa-solid fa-caret-left"></i>
+        <p>سندات الفيض</p>
+
+        <div class="bars">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="actions">
+      <div class="save">
+        <div class="down">
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <p>حفظ</p>
+        <div class="disk">
+          <i class="fa-solid fa-floppy-disk"></i>
+        </div>
+      </div>
+      <div class="cancel">
+        <div class="text">إلغاء</div>
+        <div class="icon">&times;</div>
+      </div>
+    </div>
+
+    <div class="center">
+      <div class="container">
+        <div class="header">
+          <div class="attachment">
+            <label>المرفقات</label>
+            <div class="drop-container">
+              <i class="fa-regular fa-file-image image-icon"></i>
+              <i class="fa-solid fa-cloud-arrow-up upload"></i>
+              <p class="upload-image-text">
+                افلت الملف هنا او<span class="color-blue"> اختر من جهازك</span>
+              </p>
+            </div>
+          </div>
+          <div class="description">
+            <label>الوصف</label>
+            <div>
+              <input type="text" />
+            </div>
+          </div>
+
+          <div class="amount">
+            <label class="label-amount">المبلغ</label>
+            <div class="amount-container">
+              <div class="bill">1265.0000</div>
+              <div class="country">
+                <i class="fa-solid fa-caret-down"></i>
+                <span>SAR</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="code-num">
+          <div class="first">
+            <label for="number"
+              ><span class="mul">*</span>رقم الكود<span class="question"
+                >؟</span
+              ></label
+            >
+            <input id="number" type="text" />
+          </div>
+          <div class="second">
+            <label for="date">التاريخ</label>
+            <input id="date" type="text" />
+          </div>
+        </div>
+
+        <div class="employee">
+          <div class="emp">
+            <label>البائع</label>
+            <select class="select-dropdown">
+              <span class="line"></span>
+              <option>البائع</option>
+            </select>
+          </div>
+          <div class="filter">
+            <label for="filter">التصنيف</label>
+            <input type="text" id="filter" />
+          </div>
+        </div>
+
+        <div class="footer-table-one">
+          <div class="d-flex check">
+            <label for="check">متكرر</label>
+            <input type="checkbox" checked id="check" />
+          </div>
+          <div class="d-flex reverse space">
+            <div class="one">
+              <label for="rep">التكرار</label>
+              <div class="down-icon">
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+              <input type="text" value="week4" id="rep" />
+            </div>
+            <div class="two">
+              <label for="end">تاريخ الانتهاء</label>
+
+              <input type="text" id="end" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="last-table">
+      <div class="last-container">
+        <div class="last-header">
+          <p>الحسابات</p>
+          <p class="under-line">فردي</p>
+        </div>
+        <div class="table">
+          <table>
+            <tr>
+              <th>الحساب الفرعي</th>
+              <th>الوصف</th>
+              <th>المبلغ</th>
+              <th>الضرائب</th>
+              <th>مركز التكلفة</th>
+            </tr>
+            <tr>
+              <td class="top">
+                1210-المشتريات
+
+                <i class="fa-solid fa-caret-up up"></i>
+              </td>
+              <td class="table-dec"></td>
+              <td class="table-amount">500</td>
+              <td class="value">
+                القيمة المصادقة
+                <i class="fa-solid fa-caret-down mr"></i>
+              </td>
+              <td class="place">
+                مركز تكلفة الرياض
+                <i class="fa-solid fa-caret-down mrl"></i>
+              </td>
+              <td class="td-circle">
+                <div class="circle-icon">&minus;</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="top amounts">
+                512-شحن المشتريات
+                <i class="fa-solid fa-caret-up up-second"></i>
+              </td>
+              <td class="table-dec"></td>
+              <td class="table-amount">600</td>
+              <td class="value">
+                القيمة المصادقة
+                <i class="fa-solid fa-caret-down mr"></i>
+              </td>
+              <td class="place">
+                مركز تكلفة جدة
+                <i class="fa-solid fa-caret-down mr"></i>
+              </td>
+              <td class="td-circle">
+                <div class="circle-icon">&minus;</div>
+              </td>
+            </tr>
+            <tr class="color-back">
+              <td colspan="4" class="table-total">المجموع</td>
+              <td colspan="2" class="p-r">1100.00</td>
+            </tr>
+            <tr class="color-back">
+              <td colspan="4" class="table-total" dir="rtl">
+                (15%)القيمة المضافة
+              </td>
+              <td colspan="2" class="p-r">165.00</td>
+            </tr>
+            <tr class="color-back">
+              <td colspan="4" class="table-total">الأجمالي</td>
+              <td colspan="2" class="p-r">1265.0000</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="final">
+      <buttton class="btn"
+        >اضافة<span class="color-blue plus">&plus;</span></buttton
+      >
+    </div>
+    <div class="have-question">لديك سؤال ?</div>
+  </body>
+</html>
